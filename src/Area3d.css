@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+section.area3d {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  align-items: center;
+  padding-top: 6vh;
+  justify-content: center;
+  flex-direction: column;
+
+  & .title3D {
+    font-size: 60px;
+    width: 40%;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  & .paragrafo {
+    color: grey;
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  & .oculos3d {
+    width: 900px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  & .statsArea {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin-bottom: 70px;
+
+    & .stats {
+      border-right: 1px solid;
+      width: 25%;
+      text-align: center;
+
+      & h2 {
+        font-family: "Orbitron", sans-serif;
+        font-size: 30px;
+        font-weight: 500;
+      }
+
+      & p {
+        text-transform: uppercase;
+        font-size: 16px;
+        color: grey;
+      }
+    }
+
+    & :nth-child(4) {
+      border-right: none;
+    }
+  }
+}
