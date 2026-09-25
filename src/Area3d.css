@@ -3,10 +3,9 @@
 
 section.area3d {
   display: flex;
-  min-height: 100vh;
   width: 100%;
   align-items: center;
-  padding-top: 6vh;
+  margin-top: 10vh;
   justify-content: center;
   flex-direction: column;
 
@@ -51,6 +50,8 @@ section.area3d {
         text-transform: uppercase;
         font-size: 16px;
         color: grey;
+        margin: 0;
+        width: 100%;
       }
     }
 
